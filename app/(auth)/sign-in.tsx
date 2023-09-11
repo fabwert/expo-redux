@@ -1,10 +1,9 @@
 import { Pressable, StyleSheet } from "react-native";
 
-import EditScreenInfo from "../../components/EditScreenInfo";
-import { Text, View } from "../../components/Themed";
-import { useAppDispatch } from "../../store";
-import { login } from "../../features/authentication/auth.slice";
-import { useEffect } from "react";
+import EditScreenInfo from "@/components/EditScreenInfo";
+import { Text, View } from "@/components/Themed";
+import { useAppDispatch } from "@/store";
+import { login } from "@/features/authentication/auth.slice";
 
 export default function SignInScreen() {
   const dispatch = useAppDispatch();

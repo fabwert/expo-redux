@@ -1,9 +1,9 @@
 import { Pressable, StyleSheet } from "react-native";
 
-import EditScreenInfo from "../../components/EditScreenInfo";
-import { Text, View } from "../../components/Themed";
-import { logout } from "../../features/authentication/auth.slice";
-import { useAppDispatch } from "../../store";
+import EditScreenInfo from "@/components/EditScreenInfo";
+import { Text, View } from "@/components/Themed";
+import { logout } from "@/features/authentication/auth.slice";
+import { useAppDispatch } from "@/store";
 
 export default function TabTwoScreen() {
   const dispatch = useAppDispatch();

@@ -1,9 +1,9 @@
 import { Pressable, StyleSheet } from "react-native";
 
-import EditScreenInfo from "../../components/EditScreenInfo";
-import { Text, View } from "../../components/Themed";
-import { useAppDispatch } from "../../store";
-import { logout } from "../../features/authentication/auth.slice";
+import EditScreenInfo from "@/components/EditScreenInfo";
+import { Text, View } from "@/components/Themed";
+import { useAppDispatch } from "@/store";
+import { logout } from "@/features/authentication/auth.slice";
 
 export default function TabOneScreen() {
   const dispatch = useAppDispatch();

@@ -8,9 +8,9 @@ import { useFonts } from "expo-font";
 import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
 import { useColorScheme } from "react-native";
-import { useProtectedRoute } from "../features/authentication/auth.guard";
+import { useProtectedRoute } from "@/features/authentication/auth.guard";
 import { Provider } from "react-redux";
-import store from "../store";
+import store from "@/store";
 
 export {
   // Catch any errors thrown by the Layout component.
