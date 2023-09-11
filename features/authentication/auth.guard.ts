@@ -16,8 +16,6 @@ export function useProtectedRoute() {
   useEffect(() => {
     if (!navigationState?.key) return;
     const inAuthGroup = segments[0] === "(auth)";
-    console.log("inAuthGroup", inAuthGroup);
-    console.log("user", user);
     if (
       // If the user is not signed in and the initial segment is not anything in the auth group.
       !user &&
